@@ -10,7 +10,7 @@ class CourtCoordinates:
     def __init__(self):
         self.court_length = 94                 # the court is 94 feet long
         self.court_width = 50                  # the court is 50 feet wide
-        self.hoop_loc_x = 0                   # we will build a court with the center, length-wise, being right at 0 on the x-axis
+        self.hoop_loc_x = 25                   # we will build a court with the center, length-wise, being right at 0 on the x-axis
         self.hoop_loc_y = 4.25                 # the center of the hoop is 63 inches from the baseline
         self.hoop_loc_z = 10                   # the hoop is 10 feet off the ground
         self.hoop_radius = .75
@@ -49,8 +49,8 @@ class CourtCoordinates:
         ]
 
         court_df = pd.DataFrame(court_perimeter_bounds, columns=['x','y','z'])
-        court_df['line_id'] = 'outside_perimeter'
-        court_df['line_group_id'] = 'court'
+        court_df['line_group'] = 'outside_perimeter'
+        court_df['color'] = 'court'
         
         return court_df
     
@@ -63,8 +63,8 @@ class CourtCoordinates:
         half_court_bounds = [[0, half_length, 0], [width, half_length, 0]]
 
         half_df = pd.DataFrame(half_court_bounds, columns=['x','y','z'])
-        half_df['line_id'] = 'half_court'
-        half_df['line_group_id'] = 'court'
+        half_df['line_group'] = 'half_court'
+        half_df['color'] = 'court'
 
         return half_df
 
@@ -92,8 +92,8 @@ class CourtCoordinates:
         ]
 
         backboard_df = pd.DataFrame(backboard_bounds, columns=['x','y','z'])
-        backboard_df['line_id'] = f'{loc}_backboard'
-        backboard_df['line_group_id'] = 'court'
+        backboard_df['line_group'] = f'{loc}_backboard'
+        backboard_df['color'] = 'court'
 
         return  backboard_df
     
@@ -146,8 +146,8 @@ class CourtCoordinates:
         line_coordinates.extend(end_straight)
 
         far_three_df = pd.DataFrame(line_coordinates, columns=['x', 'y', 'z'])
-        far_three_df['line_id'] = f'{loc}_three'
-        far_three_df['line_group_id'] = 'court'
+        far_three_df['line_group'] = f'{loc}_three'
+        far_three_df['color'] = 'court'
 
         return far_three_df
 
@@ -158,7 +158,7 @@ class CourtCoordinates:
         hoop_coordinates_top_half = []
         hoop_coordinates_bottom_half = []
 
-        hoop_loc_x, hoop_loc_y, hoop_loc_z = (25, self.hoop_loc_y, self.hoop_loc_z)
+        hoop_loc_x, hoop_loc_y, hoop_loc_z = (self.hoop_loc_x, self.hoop_loc_y, self.hoop_loc_z)
 
         if loc == 'near': 
             hoop_loc_y = self.court_length - hoop_loc_y
@@ -177,8 +177,8 @@ class CourtCoordinates:
             hoop_coordinates_bottom_half.append([hoop_coord_x, hoop_coord_y2, hoop_loc_z])
 
         hoop_coordinates_df = pd.DataFrame(hoop_coordinates_top_half + hoop_coordinates_bottom_half[::-1], columns=['x','y','z'])
-        hoop_coordinates_df['line_id'] = f'{loc}_hoop'
-        hoop_coordinates_df['line_group_id'] = 'hoop'
+        hoop_coordinates_df['line_group'] = f'{loc}_hoop'
+        hoop_coordinates_df['color'] = 'hoop'
         
         return hoop_coordinates_df
 
