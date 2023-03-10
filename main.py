@@ -43,7 +43,7 @@ query = """
             end as scoring_team
     FROM    play_by_play
     WHERE   game_id = 401408636
-    AND     shooting_play = True
+    AND     shooting_play
     AND     score_value != 1  -- shot charts typically do not include free throws
 """
 
@@ -58,8 +58,8 @@ fig = px.line_3d(
     x='x',
     y='y',
     z='z',
-    line_group='line_id',
-    color='line_group_id',
+    line_group='line_group',
+    color='color',
     color_discrete_map={
         'court': '#000000',
         'hoop': '#e47041'
@@ -67,7 +67,7 @@ fig = px.line_3d(
 )
 fig.update_traces(hovertemplate=None, hoverinfo='skip', showlegend=False)
 
-game_coords = pd.DataFrame()
+game_coords_df = pd.DataFrame()
 # generate coordinates for shot paths
 for index, row in game_shots_df.iterrows():
     shot = BasketballShot(
@@ -78,7 +78,7 @@ for index, row in game_shots_df.iterrows():
         shot_made=row.SCORING_PLAY,
         team=row.SCORING_TEAM)
     shot_df = shot.get_shot_path_coordinates()
-    game_coords = pd.concat([game_coords, shot_df])
+    game_coords_df = pd.concat([game_coords_df, shot_df])
 
 color_mapping = {
     'away': '#7BAFD4',
@@ -87,7 +87,7 @@ color_mapping = {
 
 # draw shot paths
 shot_path_fig = px.line_3d(
-    data_frame=game_coords,
+    data_frame=game_coords_df,
     x='x',
     y='y',
     z='z',
@@ -101,7 +101,7 @@ hovertemplate='Description: %{customdata[0]}'
 shot_path_fig.update_traces(opacity=0.55, hovertemplate=hovertemplate, showlegend=False)
 
 # shot start scatter plots
-game_coords_start = game_coords[game_coords['shot_coord_index'] == 0]
+game_coords_start = game_coords_df[game_coords_df['shot_coord_index'] == 0]
 shot_start_fig = px.scatter_3d(
     data_frame=game_coords_start,
     x='x',
