@@ -1,0 +1,362 @@
+,game_id,score_value,shooting_play,sequence_number,coordinate_x,coordinate_y,team_id,text,scoring_play,away_team_id,home_team_id
+0,401408636,0,False,101799901,25.0,0.0,2305.0,Jump Ball won by Kansas,False,153,2305
+1,401408636,3,True,101806001,35.0,24.0,2305.0,Ochai Agbaji made Three Point Jumper. Assisted by Christian Braun.,True,153,2305
+2,401408636,2,True,101807801,27.0,5.0,153.0,Armando Bacot missed Jumper.,False,153,2305
+3,401408636,0,False,101807802,25.0,0.0,2305.0,Christian Braun Defensive Rebound.,False,153,2305
+4,401408636,2,True,101809501,17.0,12.0,2305.0,David McCormack made Jumper. Assisted by Dajuan Harris Jr..,True,153,2305
+5,401408636,3,True,101815601,26.0,28.0,153.0,R.J. Davis missed Three Point Jumper.,False,153,2305
+6,401408636,0,False,101815602,25.0,0.0,2305.0,David McCormack Defensive Rebound.,False,153,2305
+7,401408636,0,False,101816901,25.0,0.0,153.0,Foul on Brady Manek.,False,153,2305
+8,401408636,1,True,101816902,25.0,0.0,2305.0,Jalen Wilson made Free Throw.,True,153,2305
+9,401408636,1,True,101816903,25.0,0.0,2305.0,Jalen Wilson made Free Throw.,True,153,2305
+10,401408636,2,True,101818101,23.0,1.0,153.0,Armando Bacot missed Dunk.,False,153,2305
+11,401408636,0,False,101818102,25.0,0.0,2305.0,David McCormack Block.,False,153,2305
+12,401408636,0,False,101818103,25.0,0.0,2305.0,Ochai Agbaji Defensive Rebound.,False,153,2305
+13,401408636,2,True,101819501,22.0,9.0,2305.0,David McCormack missed Jumper.,False,153,2305
+14,401408636,0,False,101819502,25.0,0.0,153.0,North Carolina Defensive Rebound.,False,153,2305
+15,401408636,2,True,101824501,29.0,20.0,153.0,R.J. Davis missed Jumper.,False,153,2305
+16,401408636,0,False,101824502,25.0,0.0,153.0,R.J. Davis Offensive Rebound.,False,153,2305
+17,401408636,3,True,101825401,25.0,24.0,153.0,Brady Manek made Three Point Jumper. Assisted by R.J. Davis.,True,153,2305
+18,401408636,2,True,101827101,25.0,3.0,2305.0,Christian Braun missed Layup.,False,153,2305
+19,401408636,0,False,101827102,25.0,0.0,153.0,Caleb Love Block.,False,153,2305
+20,401408636,0,False,101827104,25.0,0.0,153.0,North Carolina Defensive Rebound.,False,153,2305
+21,401408636,0,False,101829001,25.0,0.0,153.0,Foul on Caleb Love.,False,153,2305
+22,401408636,0,False,101829002,25.0,0.0,153.0,Caleb Love Turnover.,False,153,2305
+23,401408636,2,True,101835001,22.0,8.0,2305.0,David McCormack made Jumper.,True,153,2305
+24,401408636,2,True,101837601,26.0,20.0,153.0,Armando Bacot missed Jumper.,False,153,2305
+25,401408636,0,False,101837602,25.0,0.0,2305.0,David McCormack Defensive Rebound.,False,153,2305
+26,401408636,0,False,101838701,25.0,0.0,2305.0,Dajuan Harris Jr. Turnover.,False,153,2305
+27,401408636,0,False,101838702,25.0,0.0,153.0,Armando Bacot Steal.,False,153,2305
+28,401408636,3,True,101839801,13.0,23.0,153.0,Caleb Love missed Three Point Jumper.,False,153,2305
+29,401408636,0,False,101839802,25.0,0.0,153.0,Armando Bacot Offensive Rebound.,False,153,2305
+30,401408636,0,False,101844301,25.0,0.0,, Official TV Timeout,False,153,2305
+31,401408636,2,True,101844901,22.0,5.0,153.0,Armando Bacot made Jumper.,True,153,2305
+32,401408636,2,True,101846401,23.0,0.0,2305.0,Ochai Agbaji made Layup.,True,153,2305
+33,401408636,2,True,101848601,35.0,0.0,153.0,Armando Bacot missed Jumper.,False,153,2305
+34,401408636,0,False,101848602,25.0,0.0,2305.0,Christian Braun Defensive Rebound.,False,153,2305
+35,401408636,0,False,101848901,25.0,0.0,153.0,Foul on Leaky Black.,False,153,2305
+36,401408636,2,True,101854401,27.0,10.0,2305.0,David McCormack missed Jumper.,False,153,2305
+37,401408636,0,False,101854402,25.0,0.0,153.0,R.J. Davis Defensive Rebound.,False,153,2305
+38,401408636,3,True,101855501,13.0,21.0,153.0,Leaky Black missed Three Point Jumper.,False,153,2305
+39,401408636,0,False,101855502,25.0,0.0,153.0,R.J. Davis Offensive Rebound.,False,153,2305
+40,401408636,2,True,101856701,26.0,1.0,153.0,Leaky Black made Layup. Assisted by Armando Bacot.,True,153,2305
+41,401408636,2,True,101858201,27.0,0.0,2305.0,Jalen Wilson missed Layup.,False,153,2305
+42,401408636,0,False,101858202,25.0,0.0,153.0,Brady Manek Defensive Rebound.,False,153,2305
+43,401408636,0,False,101859301,25.0,0.0,2305.0,Foul on David McCormack.,False,153,2305
+44,401408636,1,True,101859302,25.0,0.0,153.0,Caleb Love made Free Throw.,True,153,2305
+45,401408636,1,True,101859303,25.0,0.0,153.0,Caleb Love made Free Throw.,True,153,2305
+46,401408636,3,True,101865001,16.0,24.0,2305.0,Jalen Wilson missed Three Point Jumper.,False,153,2305
+47,401408636,0,False,101865002,25.0,0.0,153.0,R.J. Davis Defensive Rebound.,False,153,2305
+48,401408636,0,False,101865301,25.0,0.0,2305.0,Foul on Mitch Lightfoot.,False,153,2305
+49,401408636,3,True,101866501,26.0,24.0,153.0,R.J. Davis missed Three Point Jumper.,False,153,2305
+50,401408636,0,False,101866502,25.0,0.0,153.0,Armando Bacot Offensive Rebound.,False,153,2305
+51,401408636,2,True,101866901,25.0,2.0,153.0,Armando Bacot made Layup.,True,153,2305
+52,401408636,0,False,101866902,25.0,0.0,2305.0,Foul on Jalen Wilson.,False,153,2305
+53,401408636,1,True,101866903,25.0,0.0,153.0,Armando Bacot made Free Throw.,True,153,2305
+54,401408636,2,True,101868901,22.0,1.0,2305.0,Remy Martin missed Layup.,False,153,2305
+55,401408636,0,False,101868902,25.0,0.0,153.0,Armando Bacot Defensive Rebound.,False,153,2305
+56,401408636,3,True,101869401,9.0,20.0,153.0,Brady Manek missed Three Point Jumper.,False,153,2305
+57,401408636,0,False,101869402,25.0,0.0,2305.0,Christian Braun Defensive Rebound.,False,153,2305
+58,401408636,2,True,101874301,23.0,1.0,2305.0,Christian Braun made Layup.,True,153,2305
+59,401408636,2,True,101876401,23.0,0.0,153.0,Caleb Love missed Layup.,False,153,2305
+60,401408636,0,False,101876402,25.0,0.0,2305.0,Ochai Agbaji Block.,False,153,2305
+61,401408636,0,False,101876403,25.0,0.0,2305.0,Remy Martin Defensive Rebound.,False,153,2305
+62,401408636,2,True,101877501,32.0,20.0,2305.0,Remy Martin missed Jumper.,False,153,2305
+63,401408636,0,False,101877502,25.0,0.0,2305.0,Mitch Lightfoot Offensive Rebound.,False,153,2305
+64,401408636,3,True,101878001,41.0,21.0,2305.0,Christian Braun missed Three Point Jumper.,False,153,2305
+65,401408636,0,False,101878002,25.0,0.0,153.0,R.J. Davis Defensive Rebound.,False,153,2305
+66,401408636,2,True,101884501,34.0,12.0,153.0,R.J. Davis missed Jumper.,False,153,2305
+67,401408636,0,False,101884502,25.0,0.0,2305.0,Christian Braun Defensive Rebound.,False,153,2305
+68,401408636,2,True,101886501,27.0,5.0,2305.0,Mitch Lightfoot made Jumper.,True,153,2305
+69,401408636,2,True,101888801,4.0,-1.0,153.0,Puff Johnson missed Jumper.,False,153,2305
+70,401408636,0,False,101888802,25.0,0.0,2305.0,Remy Martin Defensive Rebound.,False,153,2305
+71,401408636,3,True,101889501,12.0,22.0,2305.0,Remy Martin missed Three Point Jumper.,False,153,2305
+72,401408636,0,False,101889502,25.0,0.0,2305.0,Ochai Agbaji Offensive Rebound.,False,153,2305
+73,401408636,2,True,101894701,26.0,10.0,2305.0,Dajuan Harris Jr. missed Jumper.,False,153,2305
+74,401408636,0,False,101894702,25.0,0.0,153.0,R.J. Davis Defensive Rebound.,False,153,2305
+75,401408636,0,False,101895401,25.0,0.0,2305.0,Foul on Christian Braun.,False,153,2305
+76,401408636,0,False,101895402,25.0,0.0,, Official TV Timeout,False,153,2305
+77,401408636,1,True,101895403,25.0,0.0,153.0,R.J. Davis made Free Throw.,True,153,2305
+78,401408636,1,True,101895404,25.0,0.0,153.0,R.J. Davis made Free Throw.,True,153,2305
+79,401408636,3,True,101897101,29.0,27.0,2305.0,Remy Martin made Three Point Jumper. Assisted by Mitch Lightfoot.,True,153,2305
+80,401408636,0,False,101899701,25.0,0.0,153.0,Foul on Armando Bacot.,False,153,2305
+81,401408636,0,False,101899702,25.0,0.0,153.0,Armando Bacot Turnover.,False,153,2305
+82,401408636,2,True,101904401,27.0,1.0,2305.0,Ochai Agbaji missed Layup.,False,153,2305
+83,401408636,0,False,101904402,25.0,0.0,153.0,Puff Johnson Defensive Rebound.,False,153,2305
+84,401408636,2,True,101905501,23.0,15.0,153.0,R.J. Davis made Jumper.,True,153,2305
+85,401408636,2,True,101906601,27.0,9.0,2305.0,Christian Braun missed Jumper.,False,153,2305
+86,401408636,0,False,101906602,25.0,0.0,153.0,Armando Bacot Defensive Rebound.,False,153,2305
+87,401408636,2,True,101907801,21.0,7.0,153.0,Caleb Love made Jumper.,True,153,2305
+88,401408636,3,True,101909501,13.0,26.0,2305.0,Remy Martin missed Three Point Jumper.,False,153,2305
+89,401408636,0,False,101909502,25.0,0.0,153.0,Puff Johnson Defensive Rebound.,False,153,2305
+90,401408636,2,True,101914501,35.0,3.0,153.0,R.J. Davis missed Jumper.,False,153,2305
+91,401408636,0,False,101914502,25.0,0.0,153.0,Armando Bacot Offensive Rebound.,False,153,2305
+92,401408636,0,False,101915301,25.0,0.0,2305.0,Foul on Mitch Lightfoot.,False,153,2305
+93,401408636,1,True,101915302,25.0,0.0,153.0,Armando Bacot made Free Throw.,True,153,2305
+94,401408636,1,True,101915303,25.0,0.0,153.0,Armando Bacot made Free Throw.,True,153,2305
+95,401408636,2,True,101916701,27.0,2.0,2305.0,Jalen Wilson missed Layup.,False,153,2305
+96,401408636,0,False,101916702,25.0,0.0,2305.0,David McCormack Offensive Rebound.,False,153,2305
+97,401408636,2,True,101916703,25.0,1.0,2305.0,David McCormack missed Two Point Tip Shot.,False,153,2305
+98,401408636,0,False,101916704,25.0,0.0,153.0,Caleb Love Defensive Rebound.,False,153,2305
+99,401408636,2,True,101918101,24.0,18.0,153.0,Caleb Love missed Jumper.,False,153,2305
+100,401408636,0,False,101918102,25.0,0.0,153.0,Brady Manek Offensive Rebound.,False,153,2305
+101,401408636,2,True,101918701,38.0,14.0,153.0,R.J. Davis made Jumper.,True,153,2305
+102,401408636,0,False,101924601,25.0,0.0,2305.0,Dajuan Harris Jr. Turnover.,False,153,2305
+103,401408636,0,False,101924602,25.0,0.0,, Official TV Timeout,False,153,2305
+104,401408636,3,True,101925901,18.0,24.0,153.0,Brady Manek missed Three Point Jumper.,False,153,2305
+105,401408636,0,False,101925902,25.0,0.0,2305.0,Christian Braun Defensive Rebound.,False,153,2305
+106,401408636,2,True,101928001,23.0,2.0,2305.0,David McCormack made Layup.,True,153,2305
+107,401408636,0,False,101928901,25.0,0.0,153.0,R.J. Davis Turnover.,False,153,2305
+108,401408636,0,False,101928902,25.0,0.0,2305.0,Dajuan Harris Jr. Steal.,False,153,2305
+109,401408636,0,False,101934201,25.0,0.0,2305.0,David McCormack Turnover.,False,153,2305
+110,401408636,0,False,101935701,25.0,0.0,153.0,Caleb Love Turnover.,False,153,2305
+111,401408636,0,False,101935702,25.0,0.0,2305.0,Ochai Agbaji Steal.,False,153,2305
+112,401408636,0,False,101937001,25.0,0.0,2305.0,Christian Braun Turnover.,False,153,2305
+113,401408636,2,True,101938501,36.0,11.0,153.0,Caleb Love missed Jumper.,False,153,2305
+114,401408636,0,False,101938502,25.0,0.0,2305.0,Jalen Wilson Block.,False,153,2305
+115,401408636,0,False,101938503,25.0,0.0,2305.0,Christian Braun Defensive Rebound.,False,153,2305
+116,401408636,2,True,101939101,23.0,0.0,2305.0,Dajuan Harris Jr. missed Layup.,False,153,2305
+117,401408636,0,False,101939102,25.0,0.0,2305.0,Jalen Wilson Offensive Rebound.,False,153,2305
+118,401408636,2,True,101939103,25.0,1.0,2305.0,Jalen Wilson made Two Point Tip Shot.,True,153,2305
+119,401408636,3,True,101945001,13.0,22.0,153.0,Brady Manek made Three Point Jumper. Assisted by Caleb Love.,True,153,2305
+120,401408636,2,True,101947801,31.0,0.0,2305.0,David McCormack missed Jumper.,False,153,2305
+121,401408636,0,False,101947802,25.0,0.0,153.0,Brady Manek Defensive Rebound.,False,153,2305
+122,401408636,3,True,101948901,11.0,21.0,153.0,Brady Manek made Three Point Jumper. Assisted by Leaky Black.,True,153,2305
+123,401408636,0,False,101949401,25.0,0.0,2305.0,Kansas  Timeout,False,153,2305
+124,401408636,2,True,101954701,28.0,1.0,2305.0,Jalen Wilson missed Layup.,False,153,2305
+125,401408636,0,False,101954702,25.0,0.0,153.0,Armando Bacot Defensive Rebound.,False,153,2305
+126,401408636,0,False,101955901,25.0,0.0,2305.0,Foul on Mitch Lightfoot.,False,153,2305
+127,401408636,1,True,101955902,25.0,0.0,153.0,Armando Bacot missed Free Throw.,False,153,2305
+128,401408636,0,False,101955903,25.0,0.0,153.0,North Carolina Deadball Team Rebound.,False,153,2305
+129,401408636,1,True,101955904,25.0,0.0,153.0,Armando Bacot made Free Throw.,True,153,2305
+130,401408636,0,False,101957601,25.0,0.0,2305.0,Ochai Agbaji Turnover.,False,153,2305
+131,401408636,0,False,101958201,25.0,0.0,2305.0,Foul on David McCormack.,False,153,2305
+132,401408636,1,True,101958202,25.0,0.0,153.0,R.J. Davis made Free Throw.,True,153,2305
+133,401408636,1,True,101958203,25.0,0.0,153.0,R.J. Davis made Free Throw.,True,153,2305
+134,401408636,1,True,101958204,25.0,0.0,153.0,R.J. Davis made Free Throw.,True,153,2305
+135,401408636,2,True,101959801,28.0,1.0,2305.0,Christian Braun missed Layup.,False,153,2305
+136,401408636,0,False,101959802,25.0,0.0,153.0,Brady Manek Block.,False,153,2305
+137,401408636,0,False,101959803,25.0,0.0,153.0,Brady Manek Defensive Rebound.,False,153,2305
+138,401408636,3,True,101964601,30.0,25.0,153.0,Caleb Love missed Three Point Jumper.,False,153,2305
+139,401408636,0,False,101964602,25.0,0.0,2305.0,Christian Braun Defensive Rebound.,False,153,2305
+140,401408636,0,False,101965301,25.0,0.0,153.0,Foul on Caleb Love.,False,153,2305
+141,401408636,0,False,101965302,25.0,0.0,, Official TV Timeout,False,153,2305
+142,401408636,2,True,101966201,22.0,1.0,2305.0,Jalen Wilson missed Layup.,False,153,2305
+143,401408636,0,False,101966202,25.0,0.0,153.0,Armando Bacot Defensive Rebound.,False,153,2305
+144,401408636,2,True,101968301,28.0,0.0,153.0,Armando Bacot made Layup. Assisted by Puff Johnson.,True,153,2305
+145,401408636,2,True,101969501,22.0,3.0,2305.0,Christian Braun missed Layup.,False,153,2305
+146,401408636,0,False,101969502,25.0,0.0,153.0,Brady Manek Block.,False,153,2305
+147,401408636,0,False,101969503,25.0,0.0,153.0,Puff Johnson Defensive Rebound.,False,153,2305
+148,401408636,2,True,101975601,28.0,2.0,153.0,R.J. Davis made Layup.,True,153,2305
+149,401408636,0,False,101975901,25.0,0.0,2305.0,Kansas  Timeout,False,153,2305
+150,401408636,0,False,101976901,25.0,0.0,2305.0,Dajuan Harris Jr. Turnover.,False,153,2305
+151,401408636,2,True,101977401,22.0,0.0,153.0,Puff Johnson missed Layup.,False,153,2305
+152,401408636,0,False,101977402,25.0,0.0,153.0,Armando Bacot Offensive Rebound.,False,153,2305
+153,401408636,0,False,101977601,25.0,0.0,2305.0,Foul on Christian Braun.,False,153,2305
+154,401408636,1,True,101977602,25.0,0.0,153.0,Armando Bacot made Free Throw.,True,153,2305
+155,401408636,1,True,101977603,25.0,0.0,153.0,Armando Bacot made Free Throw.,True,153,2305
+156,401408636,0,False,101978201,25.0,0.0,153.0,Foul on Brady Manek.,False,153,2305
+157,401408636,0,False,101978801,25.0,0.0,153.0,Foul on Leaky Black.,False,153,2305
+158,401408636,1,True,101978802,25.0,0.0,2305.0,Ochai Agbaji missed Free Throw.,False,153,2305
+159,401408636,0,False,101978803,25.0,0.0,2305.0,Kansas Deadball Team Rebound.,False,153,2305
+160,401408636,1,True,101978804,25.0,0.0,2305.0,Ochai Agbaji made Free Throw.,True,153,2305
+161,401408636,0,False,101985001,25.0,0.0,2305.0,Foul on K.J. Adams.,False,153,2305
+162,401408636,1,True,101985002,25.0,0.0,153.0,Armando Bacot missed Free Throw.,False,153,2305
+163,401408636,0,False,101985003,25.0,0.0,153.0,North Carolina Deadball Team Rebound.,False,153,2305
+164,401408636,1,True,101985004,25.0,0.0,153.0,Armando Bacot missed Free Throw.,False,153,2305
+165,401408636,0,False,101985005,25.0,0.0,2305.0,Ochai Agbaji Defensive Rebound.,False,153,2305
+166,401408636,3,True,101985901,1.0,2.0,2305.0,Ochai Agbaji missed Three Point Jumper.,False,153,2305
+167,401408636,0,False,101985902,25.0,0.0,153.0,Armando Bacot Defensive Rebound.,False,153,2305
+168,401408636,3,True,101988901,26.0,30.0,153.0,R.J. Davis missed Three Point Jumper.,False,153,2305
+169,401408636,0,False,101988902,25.0,0.0,2305.0,Jalen Coleman-Lands Defensive Rebound.,False,153,2305
+170,401408636,2,True,101994001,32.0,2.0,2305.0,Christian Braun missed Jumper.,False,153,2305
+171,401408636,0,False,101994002,25.0,0.0,153.0,Armando Bacot Defensive Rebound.,False,153,2305
+172,401408636,0,False,101995001,25.0,0.0,153.0,North Carolina  Timeout,False,153,2305
+173,401408636,0,False,101996301,25.0,0.0,153.0,Armando Bacot Turnover.,False,153,2305
+174,401408636,2,True,101997601,17.0,16.0,2305.0,Ochai Agbaji made Jumper.,True,153,2305
+175,401408636,2,True,101999501,12.0,17.0,153.0,R.J. Davis missed Jumper.,False,153,2305
+176,401408636,0,False,101999502,25.0,0.0,153.0,Puff Johnson Offensive Rebound.,False,153,2305
+177,401408636,2,True,101999801,23.0,2.0,153.0,Puff Johnson made Layup.,True,153,2305
+178,401408636,0,False,101999901,50.0,-5.0,,End of 1st half,False,153,2305
+179,401408636,0,False,102799901,25.0,0.0,153.0,Jump Ball won by North Carolina,False,153,2305
+180,401408636,0,False,102806401,25.0,0.0,153.0,Caleb Love Turnover.,False,153,2305
+181,401408636,2,True,102807601,24.0,2.0,2305.0,David McCormack made Dunk. Assisted by Dajuan Harris Jr..,True,153,2305
+182,401408636,2,True,102814601,21.0,2.0,153.0,R.J. Davis missed Layup.,False,153,2305
+183,401408636,0,False,102814602,25.0,0.0,2305.0,David McCormack Defensive Rebound.,False,153,2305
+184,401408636,2,True,102815601,23.0,0.0,2305.0,Dajuan Harris Jr. missed Layup.,False,153,2305
+185,401408636,0,False,102815602,25.0,0.0,2305.0,David McCormack Offensive Rebound.,False,153,2305
+186,401408636,2,True,102816201,25.0,2.0,2305.0,David McCormack missed Layup.,False,153,2305
+187,401408636,0,False,102816202,25.0,0.0,153.0,Brady Manek Block.,False,153,2305
+188,401408636,0,False,102816203,25.0,0.0,153.0,R.J. Davis Defensive Rebound.,False,153,2305
+189,401408636,0,False,102816301,25.0,0.0,2305.0,Foul on David McCormack.,False,153,2305
+190,401408636,0,False,102816302,25.0,0.0,153.0,Leaky Black Turnover.,False,153,2305
+191,401408636,3,True,102816801,2.0,1.0,2305.0,Ochai Agbaji missed Three Point Jumper.,False,153,2305
+192,401408636,0,False,102816802,25.0,0.0,153.0,Brady Manek Defensive Rebound.,False,153,2305
+193,401408636,2,True,102817901,22.0,1.0,153.0,Armando Bacot missed Layup.,False,153,2305
+194,401408636,0,False,102817904,25.0,0.0,2305.0,Christian Braun Defensive Rebound.,False,153,2305
+195,401408636,2,True,102818501,27.0,3.0,2305.0,Christian Braun made Layup.,True,153,2305
+196,401408636,3,True,102824601,29.0,27.0,153.0,Caleb Love missed Three Point Jumper.,False,153,2305
+197,401408636,0,False,102824602,25.0,0.0,2305.0,David McCormack Defensive Rebound.,False,153,2305
+198,401408636,2,True,102825801,32.0,3.0,2305.0,Christian Braun made Jumper.,True,153,2305
+199,401408636,3,True,102827601,9.0,20.0,153.0,Caleb Love made Three Point Jumper. Assisted by Leaky Black.,True,153,2305
+200,401408636,3,True,102829501,45.0,15.0,2305.0,Jalen Wilson missed Three Point Jumper.,False,153,2305
+201,401408636,0,False,102829502,25.0,0.0,153.0,R.J. Davis Defensive Rebound.,False,153,2305
+202,401408636,2,True,102835001,35.0,14.0,153.0,Caleb Love missed Jumper.,False,153,2305
+203,401408636,0,False,102835002,25.0,0.0,2305.0,David McCormack Defensive Rebound.,False,153,2305
+204,401408636,2,True,102836001,22.0,1.0,2305.0,Jalen Wilson made Layup. Assisted by Christian Braun.,True,153,2305
+205,401408636,3,True,102836701,34.0,23.0,153.0,R.J. Davis missed Three Point Jumper.,False,153,2305
+206,401408636,0,False,102836702,25.0,0.0,153.0,R.J. Davis Offensive Rebound.,False,153,2305
+207,401408636,2,True,102837101,25.0,15.0,153.0,R.J. Davis missed Jumper.,False,153,2305
+208,401408636,0,False,102837103,25.0,0.0,2305.0,Dajuan Harris Jr. Block.,False,153,2305
+209,401408636,0,False,102837104,25.0,0.0,153.0,R.J. Davis Offensive Rebound.,False,153,2305
+210,401408636,2,True,102838201,9.0,4.0,153.0,Caleb Love missed Jumper.,False,153,2305
+211,401408636,0,False,102838202,25.0,0.0,153.0,Caleb Love Offensive Rebound.,False,153,2305
+212,401408636,2,True,102838401,23.0,10.0,153.0,Caleb Love made Jumper.,True,153,2305
+213,401408636,2,True,102839401,23.0,5.0,2305.0,Christian Braun missed Jumper.,False,153,2305
+214,401408636,0,False,102839402,25.0,0.0,2305.0,Christian Braun Offensive Rebound.,False,153,2305
+215,401408636,2,True,102844001,25.0,3.0,2305.0,Christian Braun made Layup.,True,153,2305
+216,401408636,3,True,102844701,34.0,24.0,153.0,Caleb Love missed Three Point Jumper.,False,153,2305
+217,401408636,0,False,102844702,25.0,0.0,2305.0,Christian Braun Defensive Rebound.,False,153,2305
+218,401408636,2,True,102845901,26.0,2.0,2305.0,Jalen Wilson made Layup.,True,153,2305
+219,401408636,0,False,102845902,25.0,0.0,153.0,Foul on Brady Manek.,False,153,2305
+220,401408636,0,False,102845903,25.0,0.0,, Official TV Timeout,False,153,2305
+221,401408636,1,True,102845904,25.0,0.0,2305.0,Jalen Wilson made Free Throw.,True,153,2305
+222,401408636,3,True,102848401,5.0,17.0,153.0,Brady Manek missed Three Point Jumper.,False,153,2305
+223,401408636,0,False,102848402,25.0,0.0,2305.0,Jalen Wilson Defensive Rebound.,False,153,2305
+224,401408636,0,False,102854901,25.0,0.0,153.0,Foul on Leaky Black.,False,153,2305
+225,401408636,1,True,102854902,25.0,0.0,2305.0,Ochai Agbaji missed Free Throw.,False,153,2305
+226,401408636,0,False,102854903,25.0,0.0,2305.0,Kansas Deadball Team Rebound.,False,153,2305
+227,401408636,1,True,102854904,25.0,0.0,2305.0,Ochai Agbaji made Free Throw.,True,153,2305
+228,401408636,1,True,102854905,25.0,0.0,2305.0,Ochai Agbaji missed Free Throw.,False,153,2305
+229,401408636,0,False,102854906,25.0,0.0,153.0,Brady Manek Defensive Rebound.,False,153,2305
+230,401408636,2,True,102857101,24.0,3.0,153.0,Armando Bacot missed Layup.,False,153,2305
+231,401408636,0,False,102857102,25.0,0.0,153.0,Armando Bacot Offensive Rebound.,False,153,2305
+232,401408636,2,True,102857104,26.0,2.0,153.0,Armando Bacot missed Two Point Tip Shot.,False,153,2305
+233,401408636,0,False,102857105,25.0,0.0,153.0,North Carolina Offensive Rebound.,False,153,2305
+234,401408636,2,True,102857501,29.0,7.0,153.0,Armando Bacot missed Jumper.,False,153,2305
+235,401408636,0,False,102857502,25.0,0.0,2305.0,David McCormack Defensive Rebound.,False,153,2305
+236,401408636,2,True,102858701,33.0,0.0,2305.0,Dajuan Harris Jr. made Jumper.,True,153,2305
+237,401408636,0,False,102859201,25.0,0.0,2305.0,Foul on Christian Braun.,False,153,2305
+238,401408636,1,True,102859202,25.0,0.0,153.0,Armando Bacot made Free Throw.,True,153,2305
+239,401408636,1,True,102859203,25.0,0.0,153.0,Armando Bacot missed Free Throw.,False,153,2305
+240,401408636,0,False,102859204,25.0,0.0,2305.0,Christian Braun Defensive Rebound.,False,153,2305
+241,401408636,0,False,102864701,25.0,0.0,153.0,Foul on Leaky Black.,False,153,2305
+242,401408636,1,True,102864702,25.0,0.0,2305.0,Ochai Agbaji missed Free Throw.,False,153,2305
+243,401408636,0,False,102864703,25.0,0.0,2305.0,Kansas Deadball Team Rebound.,False,153,2305
+244,401408636,1,True,102864704,25.0,0.0,2305.0,Ochai Agbaji missed Free Throw.,False,153,2305
+245,401408636,0,False,102864705,25.0,0.0,153.0,Brady Manek Defensive Rebound.,False,153,2305
+246,401408636,0,False,102866901,25.0,0.0,2305.0,Jump Ball won by Kansas,False,153,2305
+247,401408636,0,False,102866902,25.0,0.0,153.0,R.J. Davis Turnover.,False,153,2305
+248,401408636,0,False,102866903,25.0,0.0,2305.0,David McCormack Steal.,False,153,2305
+249,401408636,2,True,102868501,28.0,0.0,2305.0,Christian Braun missed Layup.,False,153,2305
+250,401408636,0,False,102868502,25.0,0.0,153.0,Brady Manek Block.,False,153,2305
+251,401408636,0,False,102868503,25.0,0.0,2305.0,Kansas Offensive Rebound.,False,153,2305
+252,401408636,2,True,102868801,25.0,6.0,2305.0,David McCormack made Jumper.,True,153,2305
+253,401408636,0,False,102875001,25.0,0.0,153.0,R.J. Davis Turnover.,False,153,2305
+254,401408636,0,False,102875002,25.0,0.0,2305.0,Dajuan Harris Jr. Steal.,False,153,2305
+255,401408636,2,True,102875701,27.0,0.0,2305.0,Christian Braun made Layup. Assisted by Ochai Agbaji.,True,153,2305
+256,401408636,0,False,102875801,25.0,0.0,153.0,North Carolina  Timeout,False,153,2305
+257,401408636,2,True,102877401,27.0,2.0,153.0,Caleb Love made Layup.,True,153,2305
+258,401408636,2,True,102879201,24.0,2.0,2305.0,Christian Braun made Layup. Assisted by Jalen Wilson.,True,153,2305
+259,401408636,3,True,102886001,30.0,26.0,153.0,Puff Johnson missed Three Point Jumper.,False,153,2305
+260,401408636,0,False,102886002,25.0,0.0,2305.0,Kansas Deadball Team Rebound.,False,153,2305
+261,401408636,0,False,102886301,25.0,0.0,, Official TV Timeout,False,153,2305
+262,401408636,3,True,102887101,41.0,21.0,2305.0,Ochai Agbaji missed Three Point Jumper.,False,153,2305
+263,401408636,0,False,102887102,25.0,0.0,153.0,Brady Manek Defensive Rebound.,False,153,2305
+264,401408636,2,True,102888201,23.0,0.0,153.0,Puff Johnson made Dunk. Assisted by Armando Bacot.,True,153,2305
+265,401408636,2,True,102894601,23.0,0.0,2305.0,Ochai Agbaji made Layup.,True,153,2305
+266,401408636,0,False,102894602,25.0,0.0,153.0,Foul on Puff Johnson.,False,153,2305
+267,401408636,1,True,102894603,25.0,0.0,2305.0,Ochai Agbaji made Free Throw.,True,153,2305
+268,401408636,2,True,102896201,29.0,10.0,153.0,Armando Bacot missed Jumper.,False,153,2305
+269,401408636,0,False,102896202,25.0,0.0,2305.0,Christian Braun Defensive Rebound.,False,153,2305
+270,401408636,3,True,102897601,49.0,-1.0,2305.0,Remy Martin made Three Point Jumper. Assisted by Christian Braun.,True,153,2305
+271,401408636,0,False,102898401,25.0,0.0,153.0,Caleb Love Turnover.,False,153,2305
+272,401408636,0,False,102898402,25.0,0.0,2305.0,Dajuan Harris Jr. Steal.,False,153,2305
+273,401408636,2,True,102899101,27.0,1.0,2305.0,Jalen Wilson made Layup. Assisted by Dajuan Harris Jr..,True,153,2305
+274,401408636,0,False,102899102,25.0,0.0,153.0,Foul on Armando Bacot.,False,153,2305
+275,401408636,1,True,102899103,25.0,0.0,2305.0,Jalen Wilson made Free Throw.,True,153,2305
+276,401408636,2,True,102904201,27.0,0.0,153.0,R.J. Davis made Layup.,True,153,2305
+277,401408636,3,True,102906501,2.0,-2.0,2305.0,Dajuan Harris Jr. missed Three Point Jumper.,False,153,2305
+278,401408636,0,False,102906502,25.0,0.0,153.0,Armando Bacot Defensive Rebound.,False,153,2305
+279,401408636,2,True,102908301,15.0,12.0,153.0,R.J. Davis made Jumper.,True,153,2305
+280,401408636,0,False,102915001,25.0,0.0,153.0,Foul on Armando Bacot.,False,153,2305
+281,401408636,1,True,102915002,25.0,0.0,2305.0,David McCormack missed Free Throw.,False,153,2305
+282,401408636,0,False,102915003,25.0,0.0,2305.0,Kansas Deadball Team Rebound.,False,153,2305
+283,401408636,1,True,102915004,25.0,0.0,2305.0,David McCormack made Free Throw.,True,153,2305
+284,401408636,0,False,102916701,25.0,0.0,2305.0,Foul on Remy Martin.,False,153,2305
+285,401408636,3,True,102918201,2.0,2.0,153.0,Puff Johnson made Three Point Jumper. Assisted by R.J. Davis.,True,153,2305
+286,401408636,0,False,102919401,25.0,0.0,2305.0,Foul on Ochai Agbaji.,False,153,2305
+287,401408636,0,False,102919402,25.0,0.0,2305.0,Ochai Agbaji Turnover.,False,153,2305
+288,401408636,0,False,102925101,25.0,0.0,2305.0,Foul on Mitch Lightfoot.,False,153,2305
+289,401408636,0,False,102925102,25.0,0.0,, Official TV Timeout,False,153,2305
+290,401408636,2,True,102925701,13.0,4.0,153.0,Armando Bacot missed Jumper.,False,153,2305
+291,401408636,0,False,102925702,25.0,0.0,153.0,Brady Manek Offensive Rebound.,False,153,2305
+292,401408636,0,False,102926701,25.0,0.0,153.0,Brady Manek Turnover.,False,153,2305
+293,401408636,0,False,102926702,25.0,0.0,2305.0,Remy Martin Steal.,False,153,2305
+294,401408636,3,True,102927901,49.0,-1.0,2305.0,Remy Martin made Three Point Jumper. Assisted by Jalen Wilson.,True,153,2305
+295,401408636,2,True,102929701,28.0,1.0,153.0,Caleb Love missed Layup.,False,153,2305
+296,401408636,0,False,102929702,25.0,0.0,153.0,North Carolina Offensive Rebound.,False,153,2305
+297,401408636,2,True,102929901,46.0,0.0,153.0,Brady Manek missed Jumper.,False,153,2305
+298,401408636,0,False,102929902,25.0,0.0,2305.0,Remy Martin Defensive Rebound.,False,153,2305
+299,401408636,2,True,102935501,33.0,-1.0,2305.0,David McCormack missed Jumper.,False,153,2305
+300,401408636,0,False,102935502,25.0,0.0,153.0,Armando Bacot Block.,False,153,2305
+301,401408636,0,False,102935503,25.0,0.0,153.0,Caleb Love Defensive Rebound.,False,153,2305
+302,401408636,2,True,102936301,23.0,1.0,153.0,Caleb Love missed Layup.,False,153,2305
+303,401408636,0,False,102936302,25.0,0.0,153.0,Puff Johnson Offensive Rebound.,False,153,2305
+304,401408636,2,True,102936801,25.0,3.0,153.0,Puff Johnson made Layup.,True,153,2305
+305,401408636,3,True,102938101,10.0,20.0,2305.0,Jalen Wilson made Three Point Jumper. Assisted by Remy Martin.,True,153,2305
+306,401408636,3,True,102939701,34.0,24.0,153.0,R.J. Davis missed Three Point Jumper.,False,153,2305
+307,401408636,0,False,102939702,25.0,0.0,2305.0,David McCormack Defensive Rebound.,False,153,2305
+308,401408636,2,True,102944601,22.0,1.0,2305.0,Ochai Agbaji missed Layup.,False,153,2305
+309,401408636,0,False,102944602,25.0,0.0,153.0,Brady Manek Defensive Rebound.,False,153,2305
+310,401408636,2,True,102945301,23.0,1.0,153.0,Puff Johnson made Layup. Assisted by Caleb Love.,True,153,2305
+311,401408636,2,True,102947101,24.0,15.0,2305.0,David McCormack missed Jumper.,False,153,2305
+312,401408636,0,False,102947102,25.0,0.0,153.0,Armando Bacot Defensive Rebound.,False,153,2305
+313,401408636,3,True,102948901,9.0,20.0,153.0,Caleb Love missed Three Point Jumper.,False,153,2305
+314,401408636,0,False,102948902,25.0,0.0,2305.0,Jalen Wilson Defensive Rebound.,False,153,2305
+315,401408636,3,True,102954601,2.0,-1.0,2305.0,Jalen Wilson missed Three Point Jumper.,False,153,2305
+316,401408636,0,False,102954602,25.0,0.0,153.0,Puff Johnson Defensive Rebound.,False,153,2305
+317,401408636,2,True,102955601,23.0,0.0,153.0,Caleb Love missed Layup.,False,153,2305
+318,401408636,0,False,102955602,25.0,0.0,153.0,R.J. Davis Offensive Rebound.,False,153,2305
+319,401408636,2,True,102956201,27.0,9.0,153.0,R.J. Davis missed Jumper.,False,153,2305
+320,401408636,0,False,102956202,25.0,0.0,2305.0,Jalen Wilson Defensive Rebound.,False,153,2305
+321,401408636,2,True,102958601,23.0,0.0,2305.0,Remy Martin made Layup.,True,153,2305
+322,401408636,2,True,102965001,27.0,1.0,153.0,Caleb Love missed Layup.,False,153,2305
+323,401408636,0,False,102965002,25.0,0.0,153.0,Armando Bacot Offensive Rebound.,False,153,2305
+324,401408636,0,False,102965401,25.0,0.0,2305.0,Foul on David McCormack.,False,153,2305
+325,401408636,0,False,102965402,25.0,0.0,, Official TV Timeout,False,153,2305
+326,401408636,1,True,102965403,25.0,0.0,153.0,Armando Bacot made Free Throw.,True,153,2305
+327,401408636,1,True,102965404,25.0,0.0,153.0,Armando Bacot made Free Throw.,True,153,2305
+328,401408636,0,False,102966401,25.0,0.0,2305.0,Remy Martin Turnover.,False,153,2305
+329,401408636,0,False,102966402,25.0,0.0,153.0,Leaky Black Steal.,False,153,2305
+330,401408636,2,True,102969101,27.0,1.0,153.0,Caleb Love missed Layup.,False,153,2305
+331,401408636,0,False,102969102,25.0,0.0,153.0,Brady Manek Offensive Rebound.,False,153,2305
+332,401408636,0,False,102969301,25.0,0.0,2305.0,Foul on Remy Martin.,False,153,2305
+333,401408636,1,True,102969302,25.0,0.0,153.0,Brady Manek made Free Throw.,True,153,2305
+334,401408636,1,True,102969303,25.0,0.0,153.0,Brady Manek made Free Throw.,True,153,2305
+335,401408636,3,True,102976001,43.0,17.0,2305.0,Remy Martin made Three Point Jumper.,True,153,2305
+336,401408636,2,True,102977201,22.0,0.0,153.0,Caleb Love made Layup.,True,153,2305
+337,401408636,3,True,102984201,49.0,4.0,2305.0,Jalen Wilson missed Three Point Jumper.,False,153,2305
+338,401408636,0,False,102984202,25.0,0.0,153.0,Armando Bacot Defensive Rebound.,False,153,2305
+339,401408636,2,True,102985701,17.0,3.0,153.0,Caleb Love missed Jumper.,False,153,2305
+340,401408636,0,False,102985702,25.0,0.0,153.0,Brady Manek Offensive Rebound.,False,153,2305
+341,401408636,2,True,102985801,27.0,1.0,153.0,Brady Manek made Two Point Tip Shot.,True,153,2305
+342,401408636,0,False,102985802,25.0,0.0,2305.0,Kansas  Timeout,False,153,2305
+343,401408636,2,True,102987201,27.0,7.0,2305.0,David McCormack missed Jumper.,False,153,2305
+344,401408636,0,False,102987202,25.0,0.0,2305.0,David McCormack Offensive Rebound.,False,153,2305
+345,401408636,2,True,102987801,30.0,4.0,2305.0,David McCormack made Jumper.,True,153,2305
+346,401408636,2,True,102994501,25.0,4.0,153.0,Caleb Love missed Layup.,False,153,2305
+347,401408636,0,False,102994502,25.0,0.0,2305.0,Remy Martin Block.,False,153,2305
+348,401408636,0,False,102994503,25.0,0.0,153.0,North Carolina Offensive Rebound.,False,153,2305
+349,401408636,0,False,102994801,25.0,0.0,153.0,Armando Bacot Turnover.,False,153,2305
+350,401408636,2,True,102997701,28.0,5.0,2305.0,David McCormack made Jumper.,True,153,2305
+351,401408636,3,True,102998401,33.0,29.0,153.0,Caleb Love missed Three Point Jumper.,False,153,2305
+352,401408636,0,False,102998402,25.0,0.0,153.0,R.J. Davis Offensive Rebound.,False,153,2305
+353,401408636,3,True,102999301,20.0,24.0,153.0,Puff Johnson missed Three Point Jumper.,False,153,2305
+354,401408636,0,False,102999302,25.0,0.0,153.0,Brady Manek Offensive Rebound.,False,153,2305
+355,401408636,0,False,102999501,25.0,0.0,153.0,Brady Manek Turnover.,False,153,2305
+356,401408636,0,False,102999502,25.0,0.0,153.0,North Carolina  Timeout,False,153,2305
+357,401408636,0,False,102999503,25.0,0.0,2305.0,Dajuan Harris Jr. Turnover.,False,153,2305
+358,401408636,3,True,102999801,16.0,25.0,153.0,Caleb Love missed Three Point Jumper.,False,153,2305
+359,401408636,0,False,102999802,25.0,0.0,153.0,North Carolina Offensive Rebound.,False,153,2305
+360,401408636,0,False,102999901,50.0,-5.0,,End of Game,False,153,2305
