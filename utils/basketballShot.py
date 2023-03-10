@@ -6,6 +6,7 @@ class BasketballShot:
         self.hoop_loc_x = 25
         self.hoop_loc_y = None
         self.hoop_loc_z = 10
+        self.hoop_baseline_offset = 4.25
         self.num_coordinates = 100
         self.shot_start_x = shot_start_x
         self.shot_start_y = shot_start_y
@@ -25,12 +26,12 @@ class BasketballShot:
         The home team will shoot against the right half-court and the away team will shoot against the left half-court
         '''
         if self.team == 'home':
-            self.shot_start_y = 94 - self.shot_start_y - 4.25
-            self.hoop_loc_y = 94 - 4.25
+            self.shot_start_y = 94 - self.shot_start_y - self.hoop_baseline_offset
+            self.hoop_loc_y = 94 - self.hoop_baseline_offset
         if self.team == 'away':
             self.shot_start_x = 50 - self.shot_start_x
-            self.shot_start_y = self.shot_start_y + 4.25
-            self.hoop_loc_y = 4.25
+            self.shot_start_y = self.shot_start_y + self.hoop_baseline_offset
+            self.hoop_loc_y = self.hoop_baseline_offset
 
     def __calculate_shot_possible(self):
         '''
@@ -45,7 +46,7 @@ class BasketballShot:
         However, if the shot is directly inlien with the hoop, then you need to calculate the hoop from a side view to avoid 
         divide by zero errors
         '''
-        if self.shot_start_x == 25: 
+        if self.shot_start_x == self.hoop_loc_x: 
             self.calculate_side_on = True
 
     def __calculate_shot_distance(self):
@@ -154,9 +155,9 @@ class BasketballShot:
         # default calculation method
         if not self.calculate_side_on:
             shot_vertex_x = self.__calculate_parabola_vertex(shot_start_x, shot_start_z, hoop_x, hoop_z, shot_vertex_z)
-
+            
             a = self.__calculate_2d_parabola_coefficient_a(shot_start_x, shot_start_z, shot_vertex_x, shot_vertex_z)
-
+            
             y_shift = hoop_y - shot_start_y
             y_shift_per_coord = y_shift / num_coords
 
@@ -175,7 +176,6 @@ class BasketballShot:
             x_shift_per_coord = x_shift / num_coords
 
             for index, y in enumerate(np.linspace(shot_start_y, hoop_y, num_coords + 1)):
-
                 z = a * (y - shot_vertex_y)**2 + shot_vertex_z
                 shot_path_coords.append([index, shot_start_x + (x_shift_per_coord * index), y, z])
 
