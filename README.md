@@ -17,5 +17,5 @@ CREATE TABLE PLAY_BY_PLAY (
     HOME_TEAM_ID INT,
 );
 ```
-  
-An example of the streamlit app live can be seen TBD
+
+Without access the the play_by_play table, a sample play_by_play.csv file is available in the utils folder.  
