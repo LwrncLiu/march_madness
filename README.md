@@ -1,5 +1,7 @@
 ### Streamlit app that renders a full-court 3D shot chart using NCAA Men's basketball court dimensions.
 
+![alt text](https://github.com/LwrncLiu/march_madness/blob/main/utils/example.png)
+
 The play by play data was acquired from <a href="https://py.sportsdataverse.org/docs/mbb/">sportsdataverse's</a> men's college basketball python package and loaded into a Snowflake table with the following schema: 
 
 ```
