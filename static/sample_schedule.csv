@@ -1,0 +1,68 @@
+,game_id,notes_headline,away_short_display_name,home_short_display_name,away_color,home_color
+0,401408636,Men's Basketball Championship - National Championship,North Carolina,Kansas,99bfe5,0022B4
+1,401408635,Men's Basketball Championship - Final Four,North Carolina,Duke,99bfe5,001A57
+2,401408634,Men's Basketball Championship - Final Four,Villanova,Kansas,123d7C,0022B4
+3,401408633,Men's Basketball Championship - East Region - Elite 8,Saint Peter's,North Carolina,004CC2,99bfe5
+4,401408632,Men's Basketball Championship - Midwest Region - Elite 8,Miami,Kansas,004325,0022B4
+5,401408631,Men's Basketball Championship - West Region - Elite 8,Arkansas,Duke,9c1831,001A57
+6,401408630,Men's Basketball Championship - South Region - Elite 8,Houston,Villanova,C90822,123d7C
+7,401408626,Men's Basketball Championship - Midwest Region - Sweet 16,Iowa State,Miami,660015,004325
+8,401408629,Men's Basketball Championship - East Region - Sweet 16,North Carolina,UCLA,99bfe5,005C8E
+9,401408627,Men's Basketball Championship - Midwest Region - Sweet 16,Providence,Kansas,000000,0022B4
+10,401408628,Men's Basketball Championship - East Region - Sweet 16,Saint Peter's,Purdue,004CC2,B89D29
+11,401408622,Men's Basketball Championship - South Region - Sweet 16,Houston,Arizona,C90822,002449
+12,401408624,Men's Basketball Championship - West Region - Sweet 16,Texas Tech,Duke,C80025,001A57
+13,401408623,Men's Basketball Championship - South Region - Sweet 16,Michigan,Villanova,00274c,123d7C
+14,401408625,Men's Basketball Championship - West Region - Sweet 16,Arkansas,Gonzaga,9c1831,002967
+15,401408621,Men's Basketball Championship - South Region - 2nd Round,TCU,Arizona,3C377D,002449
+16,401408616,Men's Basketball Championship - East Region - 2nd Round,Texas,Purdue,EE7524,B89D29
+17,401408615,Men's Basketball Championship - Midwest Region - 2nd Round,Miami,Auburn,004325,03244d
+18,401408620,Men's Basketball Championship - West Region - 2nd Round,Notre Dame,Texas Tech,00122b,C80025
+19,401408617,Men's Basketball Championship - Midwest Region - 2nd Round,Iowa State,Wisconsin,660015,A00002
+20,401408614,Men's Basketball Championship - West Region - 2nd Round,Michigan St,Duke,18453B,001A57
+21,401408619,Men's Basketball Championship - South Region - 2nd Round,Ohio State,Villanova,de3129,123d7C
+22,401408618,Men's Basketball Championship - South Region - 2nd Round,Houston,Illinois,C90822,f77329
+23,401408613,Men's Basketball Championship - West Region - 2nd Round,Memphis,Gonzaga,003087,002967
+24,401408606,Men's Basketball Championship - West Region - 2nd Round,New Mexico St,Arkansas,891216,9c1831
+25,401408609,Men's Basketball Championship - East Region - 2nd Round,Saint Peter's,Murray St,004CC2,002148
+26,401408612,Men's Basketball Championship - East Region - 2nd Round,Saint Mary's,UCLA,003768,005C8E
+27,401408607,Men's Basketball Championship - Midwest Region - 2nd Round,Richmond,Providence,9e0712,000000
+28,401408608,Men's Basketball Championship - South Region - 2nd Round,Michigan,Tennessee,00274c,EE9627
+29,401408611,Men's Basketball Championship - Midwest Region - 2nd Round,Creighton,Kansas,13299e,0022B4
+30,401408610,Men's Basketball Championship - East Region - 2nd Round,North Carolina,Baylor,99bfe5,004834
+31,401408594,Men's Basketball Championship - Midwest Region - 1st Round,Colgate,Wisconsin,8B011D,A00002
+32,401408603,Men's Basketball Championship - South Region - 1st Round,TCU,Seton Hall,3C377D,0857B1
+33,401408601,Men's Basketball Championship - South Region - 1st Round,UAB,Houston,054338,C90822
+34,401408593,Men's Basketball Championship - West Region - 1st Round,Davidson,Michigan St,000000,18453B
+35,401408597,Men's Basketball Championship - Midwest Region - 1st Round,Iowa State,LSU,660015,fdd023
+36,401408604,Men's Basketball Championship - South Region - 1st Round,Wright St,Arizona,cba052,002449
+37,401408592,Men's Basketball Championship - West Region - 1st Round,Fullerton,Duke,003767,001A57
+38,401408600,Men's Basketball Championship - South Region - 1st Round,Chattanooga,Illinois,00386b,f77329
+39,401408596,Men's Basketball Championship - East Region - 1st Round,Virginia Tech,Texas,74232D,EE7524
+40,401408605,Men's Basketball Championship - West Region - 1st Round,Notre Dame,Alabama,00122b,690014
+41,401408590,Men's Basketball Championship - Midwest Region - 1st Round,Miami,USC,004325,ffc72c
+42,401408598,Men's Basketball Championship - South Region - 1st Round,Delaware,Villanova,033594,123d7C
+43,401408595,Men's Basketball Championship - East Region - 1st Round,Yale,Purdue,004a81,B89D29
+44,401408602,Men's Basketball Championship - West Region - 1st Round,Montana St,Texas Tech,003875,C80025
+45,401408591,Men's Basketball Championship - Midwest Region - 1st Round,J'Ville St,Auburn,b50500,03244d
+46,401408599,Men's Basketball Championship - South Region - 1st Round,Loyola Chicago,Ohio State,9d1244,de3129
+47,401408582,Men's Basketball Championship - Midwest Region - 1st Round,Texas Southern,Kansas,6A0403,0022B4
+48,401408579,Men's Basketball Championship - East Region - 1st Round,San Francisco,Murray St,22523F,002148
+49,401408587,Men's Basketball Championship - East Region - 1st Round,Akron,UCLA,00285e,005C8E
+50,401408575,Men's Basketball Championship - West Region - 1st Round,Vermont,Arkansas,013C24,9c1831
+51,401408584,Men's Basketball Championship - Midwest Region - 1st Round,Creighton,San Diego St,13299e,BF2C37
+52,401408589,Men's Basketball Championship - East Region - 1st Round,Indiana,Saint Mary's,7D110C,003768
+53,401408578,Men's Basketball Championship - East Region - 1st Round,Saint Peter's,Kentucky,004CC2,005DAA
+54,401408574,Men's Basketball Championship - West Region - 1st Round,New Mexico St,UConn,891216,001d40
+55,401408583,Men's Basketball Championship - East Region - 1st Round,Marquette,North Carolina,083963,99bfe5
+56,401408586,Men's Basketball Championship - West Region - 1st Round,Georgia St,Gonzaga,1e539a,002967
+57,401408577,Men's Basketball Championship - Midwest Region - 1st Round,Richmond,Iowa,9e0712,000000
+58,401408580,Men's Basketball Championship - South Region - 1st Round,Longwood,Tennessee,003273,EE9627
+59,401408585,Men's Basketball Championship - East Region - 1st Round,Norfolk St,Baylor,046546,004834
+60,401408588,Men's Basketball Championship - West Region - 1st Round,Memphis,Boise St,003087,09347A
+61,401408576,Men's Basketball Championship - Midwest Region - 1st Round,S Dakota St,Providence,005DAB,000000
+62,401408581,Men's Basketball Championship - South Region - 1st Round,Michigan,Colorado St,00274c,004537
+63,401408570,Men's Basketball Championship - West Region - First Four,Notre Dame,Rutgers,00122b,d21034
+64,401408573,Men's Basketball Championship - South Region - First Four,Bryant,Wright St,000000,cba052
+65,401408571,Men's Basketball Championship - East Region - First Four,Indiana,Wyoming,7D110C,533B22
+66,401408572,Men's Basketball Championship - Midwest Region - First Four,Texas A&M-CC,Texas Southern,00639c,6A0403
