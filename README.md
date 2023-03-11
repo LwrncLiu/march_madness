@@ -1,4 +1,4 @@
-### Streamlit app that renders a full-court 3D shot chart using NCAA Men's basketball court dimensions.
+# Streamlit app that renders a full-court 3D shot chart using NCAA Men's basketball court dimensions.
 
 ![alt text](https://github.com/LwrncLiu/march_madness/blob/main/static/example.png)
 
@@ -21,3 +21,23 @@ CREATE TABLE PLAY_BY_PLAY (
 ```
 
 Without access the the play_by_play table, a sample play_by_play.csv file is available in the static folder.  
+
+## Virtual environment setup
+
+To set up a virtual environment to be compatible with Snowpark and the packages in this repo, run the following commands:
+
+```
+conda create --name snowpark --override-channels -c https://repo.anaconda.com/pkgs/snowflake python=3.8 numpy pandas plotly
+```
+
+```
+conda activate snowpark
+```
+
+```
+conda install snowflake-snowpark-python
+```
+
+```
+pip install streamlit 
+```
