@@ -3,31 +3,32 @@ import plotly.express as px
 import pandas as pd
 from utils.courtCoordinates import CourtCoordinates
 from utils.basketballShot import BasketballShot
-import snowflake.connector as sf
+from snowflake.snowpark import Session
 
 st.set_page_config(layout="wide")
 st.title("UNC vs Kansas Men's Basketball Championship - National Championship 2022 ")
 
 # create a connection
 @st.cache_resource
-def init_connection():
-   return sf.connect(
-       user=USER,
-       password=PASSWORD,
-       account=ACCOUNT,
-       warehouse=WAREHOUSE,
-       database=DATABASE,
-       schema=SCHEMA,
-       role=ROLE
-   )
+def create_session_object():
+    connection_parameters = {
+       "account": "phdatapartner-aws",
+       "user": "LLIU@PHDATA.IO",
+       "role": "DE_DATA_ENGINEERS",
+       "warehouse": "SANDBOX_WH",
+       "database": "SANDBOX",
+       "schema": "LLIU",
+       "authenticator": "externalbrowser"
+    }
+    session = Session.builder.configs(connection_parameters).create()
+    return session
 
-conn = init_connection()
+session = create_session_object()
 
 # query the data
 @st.cache_data
 def load_data(query):
-    cur = conn.cursor().execute(query)
-    return cur.fetch_pandas_all()
+    return session.sql(query).to_pandas() 
     
 query = """
     SELECT  sequence_number,
