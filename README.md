@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/LwrncLiu/march_madness/blob/main/static/example.png)
 
-The play by play data was acquired from <a href="https://py.sportsdataverse.org/docs/mbb/">sportsdataverse's</a> men's college basketball python package and loaded into a Snowflake table with the following schema: 
+The play by play and schedule data were acquired from <a href="https://py.sportsdataverse.org/docs/mbb/">sportsdataverse's</a> men's college basketball python package and loaded into Snowflake tables with the following schema: 
 
 ```
 CREATE TABLE PLAY_BY_PLAY (
@@ -18,9 +18,17 @@ CREATE TABLE PLAY_BY_PLAY (
     AWAY_TEAM_ID INT,
     HOME_TEAM_ID INT,
 );
+
+CREATE TABLE SCHEDULE (
+    GAME_ID INT,
+    NOTES_HEADLINE VARCHAR,
+    AWAY_DISPLAY_NAME_SHORT VARCHAR,
+    HOME_DISPLAY_NAME_SHORT VARCHAR,
+    AWAY_COLOR VARCHAR,
+    HOME_COLOR VARCHAR
 ```
 
-Without access the the play_by_play table, a sample play_by_play.csv file is available in the static folder.  
+Without access to these snowflake tables, a sample play_by_play.csv and schedule.csv file is available in the static folder.  
 
 ## Virtual environment setup
 
