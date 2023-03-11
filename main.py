@@ -28,9 +28,10 @@ session = create_session_object()
 # query the data
 @st.cache_data
 def load_data(query):
-    return session.sql(query).to_pandas() 
+    data = session.sql(query)
+    return data.to_pandas()
     
-query = """
+play_by_play_query = """
     SELECT  sequence_number,
             coordinate_x,
             coordinate_y,
@@ -41,14 +42,40 @@ query = """
                 when team_id = home_team_id
                     then 'home'
                 else 'away'
-            end as scoring_team
+            end as scoring_team,
+            game_id
     FROM    play_by_play
-    WHERE   game_id = 401408636
-    AND     shooting_play
+    WHERE   shooting_play
     AND     score_value != 1  -- shot charts typically do not include free throws
 """
 
-game_shots_df = load_data(query)
+schedule_query = """
+    select  concat(away_display_name_short, ' @ ', home_display_name_short, ' - ', notes_headline) as game,
+            game_id,
+            home_color,
+            away_color
+    from    schedule
+    order by game_id desc
+"""
+
+schedule_df = load_data(schedule_query)
+play_by_play_df = load_data(play_by_play_query)
+
+# create single selection option
+schedule_options = schedule_df[['GAME','GAME_ID']].set_index('GAME_ID')['GAME'].to_dict()
+game_selection = st.sidebar.selectbox('Select Game', schedule_options.keys(), format_func=lambda x:schedule_options[x])
+
+# filter game specific values
+game_shots_df = play_by_play_df[(play_by_play_df['GAME_ID'] == game_selection)]
+home_color = schedule_df.loc[schedule_df['GAME_ID'] == game_selection]['HOME_COLOR'].item()
+away_color = schedule_df.loc[schedule_df['GAME_ID'] == game_selection]['AWAY_COLOR'].item()
+game_text = schedule_options[game_selection]
+st.title(game_text)
+
+color_mapping = {
+    'home': home_color,
+    'away': away_color
+}
 
 # draw court lines
 court = CourtCoordinates()
@@ -80,11 +107,6 @@ for index, row in game_shots_df.iterrows():
         team=row.SCORING_TEAM)
     shot_df = shot.get_shot_path_coordinates()
     game_coords_df = pd.concat([game_coords_df, shot_df])
-
-color_mapping = {
-    'away': '#7BAFD4',
-    'home': '#0051BA'
-}
 
 # draw shot paths
 shot_path_fig = px.line_3d(
@@ -142,7 +164,7 @@ fig.update_layout(
     legend=dict(
         yanchor='bottom',
         y=0.05,
-        x=0.3,
+        x=0.2,
         xanchor='left',
         orientation='h',
         font=dict(size=15, color='black'),
