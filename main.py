@@ -14,11 +14,11 @@ def create_session_object():
     connection_parameters = {
        "account": "<ACCOUNT>",
        "user": "<USER>",
+       "password": "<PASSWORD>",
        "role": "<ROLE>",
        "warehouse": "<WAREHOUSE>",
        "database": "<DATABASE>",
-       "schema": "<SCHEMA",
-       "authenticator": "<AUTHENTICATOR>"
+       "schema": "<SCHEMA"
     }
     session = Session.builder.configs(connection_parameters).create()
     return session
