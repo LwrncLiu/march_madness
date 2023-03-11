@@ -26,6 +26,7 @@ CREATE TABLE SCHEDULE (
     HOME_DISPLAY_NAME_SHORT VARCHAR,
     AWAY_COLOR VARCHAR,
     HOME_COLOR VARCHAR
+);
 ```
 
 Without access to these snowflake tables, a sample play_by_play.csv and schedule.csv file is available in the static folder.  
