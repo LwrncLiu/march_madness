@@ -12,13 +12,13 @@ st.title("UNC vs Kansas Men's Basketball Championship - National Championship 20
 @st.cache_resource
 def create_session_object():
     connection_parameters = {
-       "account": "phdatapartner-aws",
-       "user": "LLIU@PHDATA.IO",
-       "role": "DE_DATA_ENGINEERS",
-       "warehouse": "SANDBOX_WH",
-       "database": "SANDBOX",
-       "schema": "LLIU",
-       "authenticator": "externalbrowser"
+       "account": "<ACCOUNT>",
+       "user": "<USER>",
+       "role": "<ROLE>",
+       "warehouse": "<WAREHOUSE>",
+       "database": "<DATABASE>",
+       "schema": "<SCHEMA",
+       "authenticator": "<AUTHENTICATOR>"
     }
     session = Session.builder.configs(connection_parameters).create()
     return session
